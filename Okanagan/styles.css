@@ -1,4 +1,6 @@
-﻿body {
+﻿@import url("https://cdn.ubc.ca/clf/7.0.4/css/ubc-clf-full.min.css");
+
+body {
   font-family: Arial;
   font-size: small;
   margin-left: auto;
@@ -157,4 +159,3 @@
   }
 }
 
-@import url("https://cdn.ubc.ca/clf/7.0.4/css/ubc-clf-full.min.css");
