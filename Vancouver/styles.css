@@ -1,0 +1,365 @@
+﻿body 
+{
+	 font-family: Arial;
+	 font-size: small;
+	 width: 75%;
+	 margin-left: auto;
+	 margin-right: auto;
+	 background: white;
+	 
+}
+
+.FilterPanel 
+{
+	width: 60%;
+	vertical-align: top;
+}
+
+.ErrorTable 
+{
+	width: 400px;
+	border-color: Blue;
+	border-style: solid;
+	border-width: thin;
+	 margin-left: auto;
+	 margin-right: auto;
+	 margin-top: 50px;
+	 text-align: center;
+   
+	 
+}
+
+.ErrorTable.tr
+{
+
+}
+
+.ErrorTitle 
+{
+ font-weight: bold;
+   text-decoration: underline;	
+}
+.ErrorText 
+{
+}
+    
+.LinkPanel
+{width: 20%;
+	vertical-align: top;
+	background: white;
+}
+
+/*.LinkButton
+{
+ color: Blue;
+ font-weight: bold;
+ min-height: 40px;
+ text-decoration: none;
+ line-height: 30px;
+ margin-right: 30px;
+}*/
+
+.LinkButtonSelected
+{
+ 	text-align:right;
+ 	color: rgb(255, 255, 255);
+ 	vertical-align: middle;
+}
+
+.LinkButton
+{
+    text-align:right;
+ 	color: rgb(255, 255, 255);
+ 	vertical-align: middle;
+}
+
+/*.LinkButtonSelected
+{
+ color: Blue;
+ font-weight: bold;
+ min-height: 40px;
+ text-decoration: underline;
+ line-height: 30px;
+ margin-right: 30px;
+}*/
+
+.TitlePanel
+{ 
+	width : 100%;
+	vertical-align: top;
+	background: white;
+}
+
+.FilterTitle
+{
+ font-weight: bold;
+ width: 300px;
+}
+
+.InfoBox
+{
+	/*font-style: italic;*/
+	width: 300px;
+}
+
+.modfilterlabel 
+{
+	color: Red
+}
+
+
+.DepartmentTable
+{
+ width: 100%	
+}
+.InfoTable
+{
+ width: 100%	
+}
+.InfoCell
+{
+ width: 500px;	
+}
+
+.DepartmentLabel
+{
+width: 200px;
+border-style: none;
+vertical-align: top;
+border-width: 0;
+}
+
+.DepartmentFilter
+{
+	width: 100%;
+}
+
+.WildcardTextBox
+{
+	width: 70%;
+}
+.WildcardButton
+{
+width: 10%;
+}
+.ViewTimetableButton
+{
+width: 150px;
+}
+
+.LoginBox
+{
+  border-Color: Black;
+  border-Style: solid;
+  border-Width: thin;
+  margin: 0 auto;
+}
+
+.LoginInputBox 
+{
+width: 200px;
+}
+
+.LoginButton
+{
+width: 150px;
+}
+
+.ErrorMessage
+{
+    font-size: 10;
+	color: Red;
+}
+
+.TitleText
+{  font-weight: bold;
+}
+
+.LoginText
+{  font-weight:  normal;
+}
+
+.InstructionText 
+{
+   font-style: italic;
+   font-size: 10;
+}
+
+.ObjectInputErrorLabel
+{
+	color: Red;
+}
+#pLinkPanel div
+{
+    margin: 1.5em 1.5em 1.5em 1.5em;
+    
+    margin: 10px 10px 0px 0px;
+ 	padding: 9px 18px 8px;
+ 	border-radius: 4px;
+ 	border: 0px currentColor; 	
+ 	color: rgb(255, 255, 255);
+ 	vertical-align: middle;
+ 	box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+ 	background-color: rgb(22, 70, 130);
+ 	-webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+ 	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+ 	-webkit-border-radius: 4px;
+ 	-moz-border-radius: 4px;
+ 	-o-border-radius: 4px;
+ 	-moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+ 	-o-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+ 	-webkit-text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+ 	-moz-text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+ 	-o-text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+ 	text-align:center;	
+}
+
+/* header */
+#UbcHeader
+{
+	height: 98px;
+	background-color: #002859; /* Needs to be configured with White #ffffff, UBC Blue #002859 or UBC Grey #7491a3 */
+	overflow-x:auto;
+	overflow-y:hidden;
+}
+
+#UbcHeader h1#UbcLogo
+{
+	width: 97px;
+	background: url(http://www.students.ubc.ca/_ubc_clf/img/header/ubcLogo.gif) no-repeat;
+}
+
+#UbcHeader h1#UbcLogo a
+{
+	display: block;
+	height:80px;
+	text-indent: -5000px;
+	border-right: 3px solid #fff;
+}
+
+#UbcHeader li.UbcMindLink
+{
+    background: url(http://www.students.ubc.ca/_ubc_clf//img/header/placeOfMind.gif) no-repeat 0 0;
+	border-right: 3px solid #fff;
+}
+
+#UbcHeader a#UbcMindLink
+{
+	display: block;
+	width: 187px;
+	height: 98px;
+	text-indent: -5000px;
+	background: url(http://www.students.ubc.ca/_ubc_clf//img/header/PlaceOfMind-Gif-V04-unanimated.gif) no-repeat;
+}
+
+#UbcHeader a#UbcMindLink.UbcSelected
+{
+	background-position: 0 -98px;
+}
+
+#UbcHeader li
+{
+	float: left;
+	height: 98px;
+}
+
+#UbcHeader li#UbcHeaderLine
+{
+	margin: 0;
+	padding: 0;
+	background: url(http://www.students.ubc.ca/_ubc_clf/img/header/ubcHeader.gif) no-repeat;
+	width: 379px; /* With Sub Unit Identification */
+	/* width: 692px; Main UBC.ca and Okanagan Homepage Identification Only */
+}
+
+#UbcHeader li#UbcSubUnitLine {
+	margin: 0;
+	padding: 0;
+	background: url(http://www.students.ubc.ca/_ubc_clf/img/header/studentServices.gif) no-repeat;
+	width: 314px;
+}
+
+/*#UbcHeader li#UbcSubUnitLineVPS{
+	margin: 0;
+	padding: 0;
+	background: url(http://www.students.ubc.ca/_ubc_clf/img/header/studentServices.gif) no-repeat;
+	width: 314px;
+}*/
+
+#UbcHeader li#UbcHeaderLine a, #UbcHeader li#UbcSubUnitLine a,
+#UbcHeader li#UbcHeaderLine a, #UbcHeader li#UbcSubUnitLineVPS a  {
+	display: block;
+	height: 98px;
+}
+
+#UbcHeader li#UbcHeaderLine a span, #UbcHeader li#UbcSubUnitLine a span,
+#UbcHeader li#UbcHeaderLine a span, #UbcHeader li#UbcSubUnitLineVPS a span {
+	position: absolute;
+	top: -9999px;
+}
+
+#UbcToolNav li, .UbcMenuSection li, #UbcContent ul, #UbcBottomNav li.UbcMenuSection, #UbcHeader li, #UbcMegaMenues li {
+	list-style: none;
+}
+
+#UbcMainNav li a {
+	font-size: 90% !important;
+}
+
+#UbcContent {
+	padding-bottom: 0;
+}
+
+#UbcContent ul, ol {
+	margin-top: 10px;
+}
+
+#UbcBottomNav li.UbcMenuSection ul {
+	margin: 0;
+}
+
+.UbcSubMenuSection ul {
+	margin-left: 0;
+}
+
+.content h1 {
+	margin-top: 15px;
+}
+
+#UbcBottomInfo, #UbcBottomInfoWrapper {
+	background-color: #fff;
+}
+
+ul.UbcSubMenu {
+	margin: 0;
+}
+
+#UbcUtilNavWrapper
+{
+	background: #001c33 url(../../img/footer/utilNavBg.gif) repeat-x;
+}
+
+#UbcUtilNav
+{
+    border-color: #001c33;
+}
+
+#UbcUtilNav p
+{
+	color: #fff;
+	font-size: 80%;
+	font-weight: bold;
+	margin: 1.5em 0;
+	text-align: center;
+}
+
+#UbcUtilNav p a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+#UbcUtilNav p a:hover
+{
+	text-decoration: underline;
+}
